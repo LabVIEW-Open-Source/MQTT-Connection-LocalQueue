@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-19 16:19:29" Creator="normandinf" Comments="" ID="6fa3d885c043f438bc2573c2516f13c7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-20 14:30:51" Creator="normandinf" Comments="" ID="aa03660231996f90aa97cab7df9f97b6">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_LocalQueue_Connection</Package_File_Name>
-    <Library_Version>3.1.1.4</Library_Version>
+    <Library_Version>3.1.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -18,10 +18,10 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>labview_open_source_lib_unicity &gt;= 1.0.2.5</External_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.1.9</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.1.12</External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.0.1</Additional_External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_unicity-1.0.2.5</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.1.9</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.1.12</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -277,7 +277,7 @@ This package is an example for how to create a new specific connection package b
         <Path>source\Example Local Queue Server-Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB3FCA0CD036678555F56F016C7B70A9</GUID>
+      <GUID>E5F3D2F8BC1FB039E0637D509AEEE0C3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
