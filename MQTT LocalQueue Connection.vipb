@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-20 14:30:51" Creator="normandinf" Comments="" ID="aa03660231996f90aa97cab7df9f97b6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-07 15:15:51" Creator="normandinf" Comments="" ID="0304edc4c6fc6303ba5727d91386c820">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_LocalQueue_Connection</Package_File_Name>
-    <Library_Version>3.1.1.5</Library_Version>
+    <Library_Version>4.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,11 +17,12 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_lib_unicity &gt;= 1.0.2.5</External_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.1.12</External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_unicity-1.0.2.5</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.1.12</Direct_Dependencies>
+      <External_Dependencies>labview_open_source_lib_unicity &gt;= 1.1.0.6</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_connection &gt;= 1.0.1.6</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 4.0.0.25</External_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_unicity-1.1.0.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_connection-1.0.1.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-4.0.0.25</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -41,9 +42,7 @@ This package is an example for how to create a new specific connection package b
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection-LocalQueue</URL>
-      <Release_Notes>Initial Release of MQTT LocalQUeue Connection (extension of MQTT Connection class)
-
-This package is an example for how to create a new specific connection package based on the abstract Connection class. The local queue implementation can be used for integration testing when a network connection is not available and when network functionality os not the goal of the test. It can also be used to provide inter-process communication in a way where the connection is injectable at runtime, thus making it possible to change the course of communication through a message-abstarction layer with little pain.</Release_Notes>
+      <Release_Notes>Upgrades to common Connection base class</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -178,6 +177,7 @@ This package is an example for how to create a new specific connection package b
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -277,7 +277,7 @@ This package is an example for how to create a new specific connection package b
         <Path>source\Example Local Queue Server-Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5F3D2F8BC1FB039E0637D509AEEE0C3</GUID>
+      <GUID>2BA7064795AD73B2D61733BC7A1C2F6A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
